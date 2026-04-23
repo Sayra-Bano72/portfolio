@@ -151,3 +151,9 @@ footer {
   padding: 38px;
   background-color: black;
 }
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
