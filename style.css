@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color: #0f172a;
+}
+header {
+  display: flex;
+  padding: 30px 50px;
+  text-align: center;
+  background-color: rgb(12, 12, 12);
+}
+header h2 {
+  margin: 0;
+  margin-top: 8px;
+  color: #38bdf8;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: 190px;
+  margin-top: 15px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+a:hover {
+  color: #38bdf8;
+}
+
+.hero {
+  display: flex;
+  margin: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 50px;
+  padding: 5px;
+}
+.hero p {
+  font-size: 40px;
+  padding: 5px;
+}
+h1 {
+  font-size: 42px;
+}
+span {
+  color: #38bdf8;
+}
+.btn {
+  color: black;
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 15px;
+  font-weight: 540;
+  background-color: #38bdf8;
+  text-decoration: none;
+}
+.btn:hover {
+  color: black;
+  font-weight: bold;
+}
+button {
+  color: black;
+  padding: 15px 20px;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 15px;
+  font-weight: 540;
+  cursor: pointer;
+  border: 0;
+  background-color: #38bdf8;
+}
+button:hover {
+  font-weight: bold;
+}
+.about {
+  line-height: 2;
+  padding: 20px;
+  text-align: center;
+  margin-top: -20px;
+}
+.about a {
+  display: inline-block;
+  padding: 11px 20px;
+  margin-top: 25px;
+}
+.about h2 {
+  margin-top: -8px;
+  font-size: 28px;
+}
+.about p {
+  font-size: 18px;
+}
+.skills {
+  text-align: center;
+  margin: 100px;
+}
+.skills ul {
+  list-style: none;
+  margin-top: 38px;
+}
+.skills li {
+  display: inline-block;
+  background: rgb(30, 41, 59);
+  padding: 15px 20px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.projects {
+  text-align: center;
+}
+.projects h3 {
+  display: inline-block;
+  background: rgb(30, 41, 59);
+  padding: 20px;
+  height: 15%;
+  width: 100%;
+  margin: 45px 0;
+}
+.contact {
+  margin-top: 80px;
+  text-align: center;
+  align-items: center;
+}
+.contact form {
+  margin: 40px;
+}
+.contact label {
+  display: block;
+}
+.contact input,
+textarea {
+  padding: 12px 200px;
+  margin: 22px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 38px;
+  background-color: black;
+}
