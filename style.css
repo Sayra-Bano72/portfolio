@@ -16,7 +16,7 @@ header {
   background-color: rgb(12, 12, 12);
 }
 header h2 {
-  margin: 0;
+  margin-left: 25px;
   margin-top: 8px;
   color: #38bdf8;
 }
