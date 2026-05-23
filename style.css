@@ -49,7 +49,8 @@ a:hover {
 }
 .hero p {
   font-size: 40px;
-  padding: 5px;
+  padding: 8px;
+  margin-bottom: 40px;
 }
 h1 {
   padding-top: 50px;
@@ -140,20 +141,15 @@ button:hover {
 .contact label {
   display: block;
 }
-.contact input,
-textarea {
-  padding: 12px 200px;
+.contact input, textarea {
   margin: 22px;
   border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
 }
 footer {
   text-align: center;
   padding: 38px;
   background-color: black;
-}
-@media (max-width: 768px) {
-  section {
-    flex-direction: column;
-    text-align: center;
-  }
 }
